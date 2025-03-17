@@ -24,10 +24,38 @@ main{
 .box{
     border: 2px solid rgb(5, 46, 5);
 }
+.pics img{
+    object-fit:cover;
+     width: 150px;
+     height: 100px;
+     border-radius: 50%;
 
-#vagTab{
-    /* text-align: center; */
 }
+
+.orderdiv h2{
+    padding: 0;
+    margin: 0;
+    text-decoration:dashed underline;
+    cursor: pointer;
+}
+
+.pics{
+    background-color:rgb(5, 46, 5);
+    width: 170px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.orderdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 main #msg1{
     
     grid-column-start: 1;
@@ -57,7 +85,6 @@ footer{
     background-color:rgb(5, 46, 5);
     color:white;
     padding: 1rem;
-    transform:
 }
 
 footer h3,#links{
