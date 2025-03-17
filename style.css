@@ -1,0 +1,71 @@
+*{
+    background-color: rgb(189, 196, 184);
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: rgb(5, 46, 5) dashed underline;
+    color:rgb(5, 46, 5) ;
+
+}
+main{
+    display: grid;
+    /* grid-template-columns:repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;  same as above */
+    /* grid-template-columns: auto; */
+    grid-template-rows: minmax(250px,auto);
+    grid-gap: 20px;
+    
+}
+.box{
+    border: 2px solid rgb(5, 46, 5);
+}
+
+#vagTab{
+    /* text-align: center; */
+}
+main #msg1{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+main #msg2{
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+ 
+table{
+    padding:0 2rem;
+}
+select{
+    width: 70%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    background-color:rgb(5, 46, 5);
+    color:white;
+    padding: 1rem;
+    transform:
+}
+
+footer h3,#links{
+    background: transparent;
+}
+
+
+.links a,i{
+    background-color:rgb(5, 46, 5);
+    padding:0 2rem
+}
