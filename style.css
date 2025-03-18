@@ -21,9 +21,9 @@ main{
     grid-gap: 20px;
     
 }
-.box{
+/* .box{
     border: 2px solid rgb(5, 46, 5);
-}
+} */
 .pics img{
     object-fit:cover;
      width: 150px;
@@ -57,12 +57,12 @@ main{
 }
 
 main #msg1{
-    
+    border: 2px solid rgb(5, 46, 5);
     grid-column-start: 1;
     grid-column-end: 3;
 }
 main #msg2{
-    
+    border: 2px solid rgb(5, 46, 5);
     grid-column-start: 3;
     grid-column-end: 5;
 }
