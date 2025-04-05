@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(189, 196, 184);
+    background-color: rgb(232, 244, 223);
     text-align: center;
 }
 h1{
@@ -22,12 +22,33 @@ main{
     
 }
 
+h3{
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 46, 5) ;;
+}
+
+.box1{
+    display: none;
+}
+
 .pics img{
     object-fit:cover;
      width: 150px;
      height: 100px;
      border-radius: 50%;
 
+}
+
+#listbtn1{
+    border: none;
+    cursor: pointer;
+
+}
+
+#listbtn2{
+    border: none;
+    cursor: pointer;
 }
 
 .orderdiv h2{
@@ -89,7 +110,7 @@ footer h3{
 
 .footer_links ul li a{
     padding: 0 2rem;
-    color: white;
+    color: black;
     background: transparent;
     font-size: 1.2rem;
 }
